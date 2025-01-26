@@ -30,3 +30,11 @@ console.log(accountBalance);
 
 accountBalance += 3.99;
 console.log(accountBalance)
+
+//task 4
+let customerName = "Ben";
+
+let welcome_message = "Good day, " +  customerName +  "! We are happy to see you again!";
+console.log(welcome_message);
+
+
