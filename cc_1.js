@@ -37,4 +37,13 @@ let customerName = "Ben";
 let welcome_message = "Good day, " +  customerName +  "! We are happy to see you again!";
 console.log(welcome_message);
 
+//task 5
 
+let isLoggedIn = false; // user is not logged in initially 
+
+if (isLoggedIn) 
+{console.log("You have successfully logged in");} //this message is shown when user is logged in isLoggedIn = true
+
+else {
+console.log("You have to log in");  // this message is shown when user have to log in isLoggedIn = false
+}
